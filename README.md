@@ -9,6 +9,8 @@ My project is an application for translating text from Japanese to English from 
 
 The data of Japanese characters containing various hiragana, katakana and kanji has been merged from two sources: from photos I have taken from my computer screen (1401-2000) and from [JPSC1400 Japanese Scene Character Dataset](https://www.imglab.org/db/) compiled by a research group in Goto Laboratory at Cyberscience Center in Tohoku University (0000-1400).
 
+The merged dataset was modified by resizing all files to be in 25x25 resolution that were not that size already, both for reducing the file sizes and for the neural network to be able to process them properly, as the images needed to be in the same resolution.
+
 **Sources:**
 
 **Data 0001–1400:**
