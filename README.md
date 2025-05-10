@@ -12,19 +12,19 @@ The data of Japanese characters containing various hiragana, katakana and kanji 
 **Sources:**
 
 **Data 0001–1400:**
-[JPSC1400: Japanese Scene Character Dataset](https://www.imglab.org/db/) from Goto Laboratory at Cyberscience Center, Tohoku University
+- [JPSC1400: Japanese Scene Character Dataset](https://www.imglab.org/db/) from Goto Laboratory at Cyberscience Center, Tohoku University
 
 **Data 1401–2000:**
-Janika Kinnunen
+- Janika Kinnunen
 
 **UTF-8 hex codes:**
-[JPSC1400: Japanese Scene Character Dataset](https://www.imglab.org/db/) labels from Goto Laboratory at Cyberscience Center, Tohoku University
-[FileFormat.info](https://www.fileformat.info/)
-[Charset.org](https://www.charset.org/)
+- [JPSC1400: Japanese Scene Character Dataset](https://www.imglab.org/db/) labels from Goto Laboratory at Cyberscience Center, Tohoku University
+- [FileFormat.info](https://www.fileformat.info/)
+- [Charset.org](https://www.charset.org/)
 
 **Implementing, adjusting and debugging Python code:**
-Documentation (os, shutil, Pillow)
-StackOverflow
-GeeksforGeeks
-PYnative.com
-Microsoft 365 Copilot
+- Documentation (os, shutil, Pillow)
+- StackOverflow
+- GeeksforGeeks
+- PYnative.com
+- Microsoft 365 Copilot
