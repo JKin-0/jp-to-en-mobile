@@ -19,7 +19,7 @@ for fileName in fileNames:
 
     # Retrieve image width and height
     wid, hgt = image.size
-    if wid != 25 and hgt != 25:
+    if wid != 25 or hgt != 25:
         resized_image = image.resize((25, 25))
 
         # Save the resized image
