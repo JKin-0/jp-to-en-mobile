@@ -5,11 +5,11 @@ This repository contains files for an assignment for Data Science module's Appli
 
 The aim of the assignment was to develop an end-to-end machine learning application that is deployed on mobile devices. The application should utilize sensors from the mobile device to collect data for the machine learning model to process into a desired output for the user.
 
-My project is an application for translating text from Japanese to English from a visual input from a mobile device's camera.
+My project is an application for identifying Japanese text from visual input from a mobile device's camera. The trained model utilizes [Keras-OCR](https://github.com/faustomorales/keras-ocr), a pre-trained model for text detection and text recognition from visual input.
 
 The data of Japanese characters containing various hiragana, katakana and kanji has been merged from two sources: from photos I have taken from my computer screen (1401-2000) and from [JPSC1400 Japanese Scene Character Dataset](https://www.imglab.org/db/) compiled by a research group in Goto Laboratory at Cyberscience Center in Tohoku University (0000-1400). The label text file is also from JPSC1400 dataset, with information for images 1401-2000 added by me.
 
-The merged dataset was modified by resizing all files to be in 25x25 resolution that were not that size already, both for reducing the file sizes and for the neural network to be able to process them properly, as the images needed to be in the same resolution.
+The model was built into an app in Android Studio. The accuracy of the current model is 21.50%. The model needs more development for higher accuracy.
 
 **Sources:**
 
@@ -24,10 +24,27 @@ The merged dataset was modified by resizing all files to be in 25x25 resolution 
 - [FileFormat.info](https://www.fileformat.info/)
 - [Charset.org](https://www.charset.org/)
 
-**Implementing, adjusting and debugging Python code:**
-- Documentation (os, shutil, Pillow)
+**Model for Keras_OCR**:
+- [Keras-ocr](https://github.com/faustomorales/keras-ocr) by Fausto Morales on GitHub
+
+**Code for Convolutional Neural Network:**
+ - [Pytorch CNN Tutorial](https://www.datacamp.com/tutorial/pytorch-cnn-tutorial) by Javier Canales Luna from DataCamp
+
+ **Code for arguments and bash scripts**:
+ - [CIFAR10 example in PyTorch](https://github.com/mvsjober/pytorch-cifar10-example) by Mats Sjöberg on GitHub
+
+ **Code for Executorch and Android**:
+ - [ExecuTorch Android Demo App](https://github.com/pytorch-labs/executorch-examples/tree/main/dl3/android/DeepLabV3Demo) by Hansong on GitHub
+ - [Getting Started with CameraX](https://developer.android.com/codelabs/camerax-getting-started) on Android Developers
+
+**Implementing, adjusting and debugging Python and Kotlin code:**
+- Documentation (os, shutil, Pillow, Android)
+- Course resources from Häme University of Applied Sciences
 - StackOverflow
 - GeeksforGeeks
 - PYnative.com
 - ImageKit.io
+- DataCamp
+- PyTorch
 - Microsoft 365 Copilot
+- ChatGPT
