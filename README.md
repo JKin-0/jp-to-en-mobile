@@ -7,7 +7,7 @@ The aim of the assignment was to develop an end-to-end machine learning applicat
 
 My project is an application for identifying Japanese text from visual input from a mobile device's camera. The trained model utilizes [Keras-OCR](https://github.com/faustomorales/keras-ocr), a pre-trained model for text detection and text recognition from visual input.
 
-The data of Japanese characters containing various hiragana, katakana and kanji has been merged from two sources: from photos I have taken from my computer screen (1401-2000) and from [JPSC1400 Japanese Scene Character Dataset](https://www.imglab.org/db/) compiled by a research group in Goto Laboratory at Cyberscience Center in Tohoku University (0000-1400). The label text file is also from JPSC1400 dataset, with information for images 1401-2000 added by me.
+The data of Japanese characters containing various hiragana, katakana and kanji has been merged from two sources: from photos I have taken from my computer screen (1401-2000) and from [JPSC1400 Japanese Scene Character Dataset](https://www.imglab.org/db/) compiled by a research group in Goto Laboratory at Cyberscience Center in Tohoku University (0000-1400). The label text file is also from JPSC1400 dataset, with information for images 1401-2000 added by me. All the images in the complete dataset were resized to 25x25 for reduced file size.
 
 The model was built into an app in Android Studio. The accuracy of the current model is 21.50%. The model needs more development for higher accuracy.
 
